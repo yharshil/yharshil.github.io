@@ -24,7 +24,7 @@ $(document).ready(function(){
 	    loop:true,
 	    items: 8,
 	    autoplay: true,
-	    autoplayTimeout: 5000,
+	    autoplayTimeout: 4000,
 	    slideTransition: 'linear',
 	    responsive: {
 	        0:{
@@ -91,30 +91,3 @@ $(document).ready(function(){
 	}
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -80,7 +80,15 @@ body{
 	max-width: 100%;
 }
 
+.aboutText {
+	padding-top: 35px
+}
+
 .aboutText h4{
+	text-align: center;
+}
+
+.aboutText p{
 	text-align: center;
 }
 
@@ -211,25 +219,3 @@ body{
 	height: 100%;
 	background: url(../icons/loaderf.png) center center no-repeat; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
