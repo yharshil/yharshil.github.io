@@ -44,12 +44,13 @@ $(document).ready(function(){
 	    }
 	});
 
-
 	var skillsTopOffset = $(".skillsSection").offset().top;
-
-	$(window).scroll(function(){
+	var statsTopOffset = $(".statsSection").offset().top;
+	var countUpFinished = false;
+	$(window).scroll(function() {
 
 		if(window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
+
 			$('.chart').easyPieChart({
 		            easing: 'easeInOut',
 		            barColor: '#fff',
@@ -64,8 +65,21 @@ $(document).ready(function(){
 
 		}
 
-	});
 
+		if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 200) {
+			$(".counter").each(function() {
+				var element = $(this);
+				var endVal = parseInt(element.text());
+
+				element.countup(endVal);
+			})
+
+			countUpFinished = true;
+
+		}
+
+
+	});
 
 	$("#navigation li a").click(function(e){
 		e.preventDefault();
