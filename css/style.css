@@ -132,6 +132,11 @@ body{
 	content: '%';
 }
 
+.contactSection {
+	padding-top: 60px;
+	padding-bottom: 0px;
+}
+
 .contactButton {
 	color: #c23616;
     padding: 15px 20px;
