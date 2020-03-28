@@ -1,6 +1,6 @@
 $(window).on("load", function(){
-	$(".loader .inner").fadeOut(600, function(){
-		$(".loader").fadeOut(850);
+	$(".loader .inner").fadeOut(500, function(){
+		$(".loader").fadeOut(750);
 	});
 });
 
@@ -16,6 +16,7 @@ $(document).ready(function(){
 		strings: ["Software Engineer. ^1000","Tech Enthusiast. ^1000","Android Framework. ^1000"],
 		typeSpeed: 60,
 		loop: true,
+		nav: true,
 		startDelay: 500,
 		showCursor: false
 	});
@@ -24,7 +25,7 @@ $(document).ready(function(){
 	    loop:true,
 	    items: 8,
 	    autoplay: true,
-	    autoplayTimeout: 4000,
+	    autoplayTimeout: 3000,
 	    slideTransition: 'linear',
 	    responsive: {
 	        0:{
