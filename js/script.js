@@ -107,3 +107,15 @@ $(document).ready(function(){
 	}
 
 });
+
+$('.js-wp-1').waypoint(function(direction) {
+    $('.js-wp-1').addClass('animated fadeInDown');
+}, {
+    offset: '10%'
+});
+
+$('.js-wp-2').waypoint(function(direction) {
+    $('.js-wp-2').addClass('animated swing');
+}, {
+    offset: '10%'
+});
