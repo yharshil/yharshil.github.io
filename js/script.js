@@ -13,7 +13,7 @@ $(document).ready(function(){
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Software Engineer. ^1000","Tech Enthusiast. ^1000","Android Framework. ^1000"],
+		strings: ["Software Engineer. ^1000","Android Framework. ^1000","UI/UX Developer. ^1000","Caffeine Addict :P ^1000"],
 		typeSpeed: 60,
 		loop: true,
 		nav: true,
