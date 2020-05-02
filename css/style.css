@@ -1,8 +1,14 @@
+/*
+Light Blue : #487eb0
+Dark Blue : #192a56
+White : #FFFFFF
+*/
+
 body{
 	font-size: 14px;
 	color: #333;
-	font-family: 'Cubano-Regular';
-	background: url('../img/pattern.jpg') center center;
+	font-family: 'Nunito-Regular';
+	/*background: url('../img/pattern.jpg') center center;*/
 	letter-spacing: 1px;
 }
 
@@ -15,6 +21,10 @@ body{
 @font-face {
     font-family: 'Nunito-Regular';
     src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+.contactText {
+	color: #192a56;
 }
 
 .overlay{
@@ -108,6 +118,10 @@ body{
     opacity: 1;
 }
 
+.shadow {
+	box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
+}
+
 .aboutText {
 	padding-top: 35px
 }
@@ -118,14 +132,23 @@ body{
 
 .aboutText p{
 	font-family: 'Nunito-Regular';
+	size: 10px;
 	text-align: center;
 }
 
-
+.fa-building-o {
+	color: #192a56;
+}
 
 .section-timeline {
     background-color: white;
     padding-top: 5rem;
+}
+
+.heading {
+	text-align: center!important;
+	color: #192a56;
+	font-size: 2rem;
 }
 
 .timeline {
@@ -134,7 +157,11 @@ body{
     padding-top: 50px;
     position: relative;
 }
-    
+
+.timeline-badge{
+	color: #FFFFFF;
+}
+
 .timeline:before {   /* GREY LINE */
     top: 0;
     bottom: 0;
@@ -144,6 +171,8 @@ body{
     background-color: #eeeeee;
     left: 50%;
     margin-left: -1.5px;
+	margin-bottom: 95px;
+    margin-top: 45px;
 }
 
 .timeline > li {
@@ -187,7 +216,7 @@ body{
 
 .timeline > li > .timeline-badge {
     font-size: 1rem; !important
-    color: #fff;
+    color: #487eb0;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -196,7 +225,7 @@ body{
     top: 16px;
     left: 50%;
     margin-left: -25px;
-    background-color: rgba(19, 128, 36, 0.82);
+    background-color: #487eb0;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -308,9 +337,13 @@ body{
     color: #444;
 }
 
+.experienceSection {
+	padding-bottom: 10px;
+}
+
 .contactSection {
-	padding-top: 10px;
-	padding-bottom: 0px;
+	padding-top: 60px;
+	padding-bottom: 30px;
 }
 
 .contactButton {
@@ -355,6 +388,9 @@ body{
     color: #192a56;
 }
 
+.fa-heart {
+    color: red;
+}
 
 .copyrightSection {
 	background-color: #000;
