@@ -365,7 +365,6 @@ body{
 
 .squareContent h2 {
 	font-size: 56px;
-	margin-bottom: 10px;
 	font-weight: 400;
 	color: #e74c3c;
 }
@@ -373,7 +372,7 @@ body{
 .squareContent h3 {
 	font-size: 13px;
 	font-weight: 600;
-	margin: 0;
+	margin-top: 10px;
 }
 
 .squareIcon {
