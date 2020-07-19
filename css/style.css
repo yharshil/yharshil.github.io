@@ -169,6 +169,7 @@ body{
 }
 
 .aboutImage {
+	text-align: center;
 	max-width: 100%;
 }
 
@@ -215,6 +216,7 @@ body{
 }
 
 .timeline-badge{
+	text-align: center;
 	color: #FFFFFF;
 }
 
@@ -327,6 +329,7 @@ body{
 }
 
 .chart .percent {
+	text-align: center;
 	color: var(--white);
 	line-height: 152px;
 	display: inline-block;
@@ -387,6 +390,7 @@ body{
 }
 
 .squareIcon {
+	text-align: center;
 	position: absolute;
     left: 50%;
     top: -30px;
