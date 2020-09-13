@@ -389,7 +389,7 @@ body{
 .squareContent h2 {
 	font-size: 56px;
 	font-weight: 400;
-	color: #e74c3c;
+	color: var(--darkteal);
 }
 
 .squareContent h3 {
